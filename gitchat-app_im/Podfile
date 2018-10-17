@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'gitchat-app_im' do
+	#pod 'NIMKit/Lite'
+	pod 'NIMSDK_LITE'
+	pod 'Alamofire'
+	pod 'SDWebImage'
+	pod 'Toast'
+	pod 'SVProgressHUD'
+	pod 'M80AttributedLabel'
+	pod 'TZImagePickerController'
+end
+
